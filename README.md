@@ -13,8 +13,9 @@ $ poetry add pppiv --dev
 
 # Usage
 
+## Visual Studio Code
 ```
-$ poetry run pppiv
+$ poetry run pppiv --target vscode
 {
     "python.pythonPath": "/home/argon/.xdg/python_3.6_1580776274/pypoetry/virtualenvs/pppiv-DMQSTvHG-py3.6/bin/python",
     "python.formatting.blackPath": "/home/argon/.xdg/python_3.6_1580776274/pypoetry/virtualenvs/pppiv-DMQSTvHG-py3.6/bin/black",
@@ -29,7 +30,41 @@ $ poetry run pppiv
     "python.linting.pylintPath": "/home/argon/.xdg/python_3.6_1580776274/pypoetry/virtualenvs/pppiv-DMQSTvHG-py3.6/bin/pylint",
     "python.sortImports.path": "/home/argon/.xdg/python_3.6_1580776274/pypoetry/virtualenvs/pppiv-DMQSTvHG-py3.6/bin/isort"
 }
-$cat .vscode/settings.json
+$ cat .vscode/settings.json
+{
+    "python.pythonPath": "/home/argon/.xdg/python_3.6_1580776274/pypoetry/virtualenvs/pppiv-DMQSTvHG-py3.6/bin/python",
+    "python.formatting.blackPath": "/home/argon/.xdg/python_3.6_1580776274/pypoetry/virtualenvs/pppiv-DMQSTvHG-py3.6/bin/black",
+    "python.formatting.autopep8Path": "/home/argon/.xdg/python_3.6_1580776274/pypoetry/virtualenvs/pppiv-DMQSTvHG-py3.6/bin/autopep8",
+    "python.formatting.yapfPath": "/home/argon/.xdg/python_3.6_1580776274/pypoetry/virtualenvs/pppiv-DMQSTvHG-py3.6/bin/yapf",
+    "python.linting.banditPath": "/home/argon/.xdg/python_3.6_1580776274/pypoetry/virtualenvs/pppiv-DMQSTvHG-py3.6/bin/bandit",
+    "python.linting.flake8Path": "/home/argon/.xdg/python_3.6_1580776274/pypoetry/virtualenvs/pppiv-DMQSTvHG-py3.6/bin/flake8",
+    "python.linting.mypyPath": "/home/argon/.xdg/python_3.6_1580776274/pypoetry/virtualenvs/pppiv-DMQSTvHG-py3.6/bin/mypy",
+    "python.linting.pycodestylePath": "/home/argon/.xdg/python_3.6_1580776274/pypoetry/virtualenvs/pppiv-DMQSTvHG-py3.6/bin/pycodestyle",
+    "python.linting.pylamaPath": "/home/argon/.xdg/python_3.6_1580776274/pypoetry/virtualenvs/pppiv-DMQSTvHG-py3.6/bin/pylama",
+    "python.linting.pydocstylePath": "/home/argon/.xdg/python_3.6_1580776274/pypoetry/virtualenvs/pppiv-DMQSTvHG-py3.6/bin/pycodestyle",
+    "python.linting.pylintPath": "/home/argon/.xdg/python_3.6_1580776274/pypoetry/virtualenvs/pppiv-DMQSTvHG-py3.6/bin/pylint",
+    "python.sortImports.path": "/home/argon/.xdg/python_3.6_1580776274/pypoetry/virtualenvs/pppiv-DMQSTvHG-py3.6/bin/isort"
+}
+```
+
+## coc.nvim
+```
+$ poetry run pppiv --target coc
+{
+    "python.pythonPath": "/home/argon/.xdg/python_3.6_1580776274/pypoetry/virtualenvs/pppiv-DMQSTvHG-py3.6/bin/python",
+    "python.formatting.blackPath": "/home/argon/.xdg/python_3.6_1580776274/pypoetry/virtualenvs/pppiv-DMQSTvHG-py3.6/bin/black",
+    "python.formatting.autopep8Path": "/home/argon/.xdg/python_3.6_1580776274/pypoetry/virtualenvs/pppiv-DMQSTvHG-py3.6/bin/autopep8",
+    "python.formatting.yapfPath": "/home/argon/.xdg/python_3.6_1580776274/pypoetry/virtualenvs/pppiv-DMQSTvHG-py3.6/bin/yapf",
+    "python.linting.banditPath": "/home/argon/.xdg/python_3.6_1580776274/pypoetry/virtualenvs/pppiv-DMQSTvHG-py3.6/bin/bandit",
+    "python.linting.flake8Path": "/home/argon/.xdg/python_3.6_1580776274/pypoetry/virtualenvs/pppiv-DMQSTvHG-py3.6/bin/flake8",
+    "python.linting.mypyPath": "/home/argon/.xdg/python_3.6_1580776274/pypoetry/virtualenvs/pppiv-DMQSTvHG-py3.6/bin/mypy",
+    "python.linting.pycodestylePath": "/home/argon/.xdg/python_3.6_1580776274/pypoetry/virtualenvs/pppiv-DMQSTvHG-py3.6/bin/pycodestyle",
+    "python.linting.pylamaPath": "/home/argon/.xdg/python_3.6_1580776274/pypoetry/virtualenvs/pppiv-DMQSTvHG-py3.6/bin/pylama",
+    "python.linting.pydocstylePath": "/home/argon/.xdg/python_3.6_1580776274/pypoetry/virtualenvs/pppiv-DMQSTvHG-py3.6/bin/pycodestyle",
+    "python.linting.pylintPath": "/home/argon/.xdg/python_3.6_1580776274/pypoetry/virtualenvs/pppiv-DMQSTvHG-py3.6/bin/pylint",
+    "python.sortImports.path": "/home/argon/.xdg/python_3.6_1580776274/pypoetry/virtualenvs/pppiv-DMQSTvHG-py3.6/bin/isort"
+}
+$ cat .vim/coc-settings.json
 {
     "python.pythonPath": "/home/argon/.xdg/python_3.6_1580776274/pypoetry/virtualenvs/pppiv-DMQSTvHG-py3.6/bin/python",
     "python.formatting.blackPath": "/home/argon/.xdg/python_3.6_1580776274/pypoetry/virtualenvs/pppiv-DMQSTvHG-py3.6/bin/black",

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pppiv"
-version = "0.1.1"
+version = "0.1.2"
 description = "Poetry Python Path Injector for VSCode"
 authors = ["Masahiro Wada <argon.argon.argon@gmail.com>"]
 license = "MIT"
